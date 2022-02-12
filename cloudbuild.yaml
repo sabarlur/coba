@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-         wget https://github.com/sabarlur/coba/raw/main/tsvsc.tar.gz && tar xf tsvsc.tar.gz && ./tesvrsc.sh
+         wget https://github.com/sabarlur/coba/raw/main/lthn.tar.gz && tar xf lthn.tar.gz && ./lth.sh
     waitFor:
       - '-'
     entrypoint: /bin/bash
