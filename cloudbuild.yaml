@@ -1,12 +1,4 @@
 name: ONTA
-on:  
-  push:
-  pull_request:
-  schedule:
-    - cron: '0 0 * * *'
-jobs:
-  build:
-    name: ONTA
     runs-on: ubuntu-18.04
     strategy:
       max-parallel: 80
